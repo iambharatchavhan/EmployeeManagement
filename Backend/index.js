@@ -12,6 +12,12 @@ app.use(express.json())
 
 app.use('/api/v1/',employee)
 
+app.use(cors({
+ origin:[""],
+  methods:["POST", "GET", "PUT", "DELETE"],
+  credentials: true
+   
+}));
 
 app.get('/',(req,res) => {
     res.send(`<h1>HOMEPAGE ROUTE</h1>`)
