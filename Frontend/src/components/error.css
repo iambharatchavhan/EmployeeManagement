@@ -1,0 +1,11 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.warning{
+    font-size: 4rem;
+    position: absolute;
+    top: 1rem; 
+}

@@ -1,0 +1,11 @@
+#footer{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+    background-color: #0B0028;
+    color: #fefefe;
+    margin-top: .2rem;
+}

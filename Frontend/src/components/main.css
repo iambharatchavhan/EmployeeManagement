@@ -1,0 +1,118 @@
+#main{
+    height: 80svh;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+.search-container{
+    padding:.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0B0028;
+    background-color: #C7BBB4;
+    position: sticky;
+    top: 0;
+}
+.search-container input{
+    border: none;
+    outline: none;
+    padding:.8rem 1rem;
+    border-radius: 50px;
+    color: #0B0028;
+    font-weight: 600;
+    background-color: #e2e1e6;
+}
+
+
+#single-EmployeeData{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding:.5rem .8rem;
+background-color: #6f5b6eb6;
+border-radius:2px;
+}
+#single-EmployeeData:nth-child(even){
+background-color: #c7bbb4b6;
+
+}
+.profile{
+    font-size: 2.5rem;
+    padding: .5rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+.details{
+   width: 60%;
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: .5rem;
+}
+.details p{
+    font-size: 1.2rem;
+}
+.button-container{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center ;  
+    gap: 1rem;
+}
+.button-container button{
+    display: flex;
+    justify-content: center;
+    align-items:center ;  
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+.button-container button:nth-child(1){
+    color: blue;
+}
+.button-container button:nth-child(2){
+    color: green;
+}
+.button-container button:nth-child(3){
+    color: #FF5722;
+}
+
+
+@media screen and (max-width: 549px) {
+     body{
+        padding: 0;
+        margin: 0;
+     }
+     #main{
+        height: 70svh;
+        
+    }
+
+    #single-EmployeeData{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding:.5rem .8rem;
+        
+        }
+        .search-container{
+            padding:.5rem 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            
+        }
+  
+  }
