@@ -5,10 +5,13 @@ import AddEmployees from "./components/AddEmployees";
 import EmployeeInfo from "./components/EmployeeInfo";
 import UpdateEmp from "./components/UpdateEmp";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import axios from 'axios'
 
 import "./App.css";
 
 function App() {
+   axios.defaults.withCredentials: true ;
+  
   return (
     <>
       <BrowserRouter>
