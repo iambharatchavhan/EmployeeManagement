@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/api/v1/',employee)
 
 app.use(cors({
- origin:["https://employee-management-frontend-flax.vercel.app/"],
+ origin:["https://employee-management-frontend-flax.vercel.app"],
   methods:["POST", "GET", "PUT", "DELETE"],
   credentials: true
    
