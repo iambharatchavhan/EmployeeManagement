@@ -4,7 +4,7 @@ require('dotenv').config()
 const connect = async () => {
     try{
 
-      await mongoose.connect(process.env.DATABASE_LINK,{})
+      await mongoose.connect("mongodb+srv://bharatchavhan1026:98LpOED7Ln1bSDaN@cluster0.rchyzeq.mongodb.net/EmployeeData",{})
       console.log("Database connection successfully")
 
     }catch(error){
