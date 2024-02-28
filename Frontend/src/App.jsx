@@ -10,7 +10,7 @@ import axios from 'axios'
 import "./App.css";
 
 function App() {
-   axios.defaults.withCredentials: true ;
+   axios.defaults.withCredentials= true ;
   
   return (
     <>
