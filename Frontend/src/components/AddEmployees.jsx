@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import formImg from "../assets/form.png";
 
 const AddEmployees = () => {
+   axios.defaults.withCredentials= true ;
   const [employeeInfo, setEmployeeInfo] = useState({
     firstName: "",
     lastName: "",
