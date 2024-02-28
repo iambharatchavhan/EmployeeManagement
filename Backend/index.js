@@ -7,17 +7,20 @@ const employee = require('./routes/empRoutes')
 require('dotenv').config()
 const port = process.env.PORT || 4000
 
-app.use(express.json())
-
-
-app.use('/api/v1/',employee)
-
 app.use(cors({
  origin:["https://employee-management-frontend-flax.vercel.app"],
   methods:["POST", "GET", "PUT", "DELETE"],
   credentials: true
    
 }));
+
+
+
+app.use(express.json())
+
+
+app.use('/api/v1/',employee)
+
 
 app.get('/',(req,res) => {
     res.send(`<h1>HOMEPAGE ROUTE</h1>`)
