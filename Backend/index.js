@@ -5,10 +5,10 @@ const employee = require('./routes/empRoutes')
 
 
 require('dotenv').config()
-const port = process.env.PORT || 4000
+const port = 3000
 
 app.use(cors({
- origin:["https://employee-management-frontend-flax.vercel.app"],
+ origin:[""],
   methods:["POST", "GET", "PUT", "DELETE"],
   credentials: true
    
