@@ -15,7 +15,7 @@ const UpdateEmp = () => {
     e.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:3000/api/v1/update/${id}`,
+        `https://employee-management-api.vercel.app/v1/update/${id}`,
         employeeInfo
       );
 
