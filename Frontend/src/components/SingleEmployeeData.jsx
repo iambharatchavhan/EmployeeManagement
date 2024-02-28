@@ -10,7 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 const SingleEmployeeData = ({ data }) => {
-   
+    axios.defaults.withCredentials= true ;
   const navigate = useNavigate()
 
 
