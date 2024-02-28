@@ -20,7 +20,7 @@ const AddEmployees = () => {
     // data submission logic
     try {
       const postingData = axios.post(
-        "http://localhost:3000/api/v1/create-employee",
+        "https://employee-management-api.vercel.app/api/v1/create-employee",
         employeeInfo
       );
       setEmployeeInfo({
