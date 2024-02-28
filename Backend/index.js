@@ -23,7 +23,7 @@ app.use('/api/v1/',employee)
 
 
 app.get('/',(req,res) => {
-    res.send(`<h1>HOMEPAGE ROUTE</h1>`)
+    res.send("hello world")
 })
 
 app.listen(port,()=>{
