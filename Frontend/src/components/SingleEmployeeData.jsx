@@ -18,7 +18,7 @@ const SingleEmployeeData = ({ data }) => {
     const handelDelete = async (id) =>{
       // console.log(id)
       try{
-        const response = await axios.delete(`http://localhost:3000/api/v1/delete-employee/${id}`) 
+        const response = await axios.delete(`https://employee-management-api.vercel.app/api/v1/delete-employee/${id}`) 
       
       }catch(error){
         console.log(error.message)
