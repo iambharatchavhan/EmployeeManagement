@@ -24,7 +24,7 @@ const EmployeeInfo = () => {
     const handleEmployee = async (id) => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/v1/getSingleEmployee/${id}`
+          `https://employee-management-api.vercel.app/v1/getSingleEmployee/${id}`
         );
         if (!response.data || !response.data.data) {
           console.log("Error While Fetching employee");
