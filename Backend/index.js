@@ -7,12 +7,12 @@ const employee = require('./routes/empRoutes')
 require('dotenv').config()
 const port = 3000
 
-app.use(cors({
- origin:[""],
-  methods:["POST", "GET", "PUT", "DELETE"],
-  credentials: true
+// app.use(cors({
+//  origin:[""],
+//   methods:["POST", "GET", "PUT", "DELETE"],
+//   credentials: true
    
-}));
+// }));
 
 
 
